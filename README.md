@@ -15,7 +15,7 @@ Or
 
 ```yaml
 dependencies:
-  protocol_handler:
+  mostly_reasonable_lints:
     git:
       url: https://github.com/leanflutter/mostly_reasonable_lints.git
       ref: main
@@ -26,7 +26,7 @@ dependencies:
 Then include it on your `analysis_options.yaml` file:
 
 ```yaml
-include: package:mostly_reasonable_lints/analysis_options.yaml
+include: package:mostly_reasonable_lints/flutter.yaml
 ```
 
 ## License
