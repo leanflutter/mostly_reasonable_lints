@@ -21,7 +21,7 @@ linter:
     # - avoid_equals_and_hash_code_on_mutable_classes
     # - avoid_escaping_inner_quotes
     # - avoid_field_initializers_in_const_classes
-    # - avoid_final_parameters
+    - avoid_final_parameters
     - avoid_function_literals_in_foreach_calls
     # - avoid_implementing_value_types
     - avoid_init_to_null
@@ -49,7 +49,7 @@ linter:
     - avoid_unnecessary_containers
     # - avoid_unstable_final_fields
     # - avoid_unused_constructor_parameters
-    # - avoid_void_async
+    - avoid_void_async
     - avoid_web_libraries_in_flutter
     - await_only_futures
     - camel_case_extensions
@@ -59,7 +59,7 @@ linter:
     # - cast_nullable_to_non_nullable
     # - close_sinks
     # - collection_methods_unrelated_type
-    # - combinators_ordering
+    - combinators_ordering
     # - comment_references
     # - conditional_uri_does_not_exist
     # - constant_identifier_names
@@ -161,7 +161,7 @@ linter:
     - provide_deprecation_message
     # - public_member_api_docs
     - recursive_getters
-    # - require_trailing_commas
+    - require_trailing_commas
     # - secure_pubspec_urls
     - sized_box_for_whitespace
     # - sized_box_shrink_expand
@@ -205,8 +205,8 @@ linter:
     - unrelated_type_equality_checks
     # - unsafe_html
     - use_build_context_synchronously
-    # - use_colored_box
-    # - use_decorated_box
+    - use_colored_box
+    - use_decorated_box
     # - use_enums
     - use_full_hex_values_for_flutter_colors
     - use_function_type_syntax_for_parameters
