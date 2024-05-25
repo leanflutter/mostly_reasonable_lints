@@ -28,7 +28,7 @@ dependencies:
 Then include it on your `analysis_options.yaml` file:
 
 ```yaml
-include: package:mostly_reasonable_lints/flutter.yaml
+include: package:mostly_reasonable_lints/analysis_options.yaml
 ```
 
 ## License
